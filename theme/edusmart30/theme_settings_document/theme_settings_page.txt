@@ -1,0 +1,259 @@
+THEME edusmart30.
+-------------------------------------------------------------------------------------------------------------------------
+Add your logo here.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+	1. The logo is displayed in the header.
+	
+	The logo is displayed in the header.
+	If the height of your logo is more than 75px add div.logo {height: 100px;} to the Custom CSS box below, amending accordingly if the height is other than 100px.
+
+-------------------------------------------------------------------------------------------------------------------------
+Wright your custom css.
+-------------------------------------------------------------------------------------------------------------------------
+
+	1. Wright your own css to style the theme.
+	
+	Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+Slider Images1.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+	Display front page slider
+	  Show or Hide Front page slider.
+	
+	Slide One: Image
+	Image works best if(Image size should be 1200px x 400px)
+
+
+Slider text1.
+--------------------------------------------------------
+
+	Display front page slider image1 text.
+	   Show or Hide Front page slider image1 text.
+	
+	Slide Image1: Text
+		Enter the caption text to use for the first slide1 text.
+		
+	Slider: Text1
+	Enter a Slider Link Text2 for your Page.
+	
+	sliderlink: URL
+		Enter a Link1 for your Page.
+	
+	
+	
+-------------------------------------------------------------------------------------------------------------------------
+Slider Images2.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+	Display front page slider
+	  Show or Hide Front page slider.
+	
+	Slide Two: Image
+	Image works best if(Image size should be 1200px x 400px)
+
+
+Slider text2.
+--------------------------------------------------------
+
+	Display front page slider image2 text.
+	   Show or Hide Front page slider image1 text.
+	
+	Slide Image3: Text
+		Enter the caption text to use for the first slide2 text.
+		
+		
+	Slider: Text2
+	Enter a Slider Link Text2 for your Page.
+	
+	sliderlink: URL
+		Enter a Link2 for your Page.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+Slider Images3.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+	Display front page slider
+	  Show or Hide Front page slider.
+	
+	Slide Three: Image
+	Image works best if(Image size should be 1200px x 400px)
+
+
+Slider text3.
+--------------------------------------------------------
+
+	Display front page slider image3 text.
+	   Show or Hide Front page slider image3 text.
+	
+	Slide Image3: Text
+		Enter the caption text to use for the first slide3 text.
+		
+	
+	Slider: Text3
+	Enter a Slider Link Text3 for your Page.
+	
+	
+	sliderlink: URL
+		Enter a Link3 for your Page.
+	
+	
+	
+-------------------------------------------------------------------------------------------------------------------------
+Marketing spot one.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+	Marketing spot section display. Yes/ No
+	Show or hide marketing spot section.
+	
+	
+	Marketing Icon1: Code
+	Icon to show in this marketing spot1. You can Select icon from here(https://fortawesome.github.io/Font-Awesome/icons/).
+	example: <i class="fa fa-desktop"></i>
+	
+	
+	Marketing title1: Text
+	Title1 to show in this marketing spot1
+	
+	
+	Marketing Content1
+	Content1 to display in the marketing box. Keep it short and sweet.
+	
+	
+-------------------------------------------------------------------------------------------------------------------------
+Marketing spot Two.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+	Marketing Icon2: Code
+	Icon to show in this marketing spot2. You can Select icon from here(https://fortawesome.github.io/Font-Awesome/icons/).
+	example: <i class="fa fa-desktop"></i>
+	
+	
+	Marketing title2: Text
+	Title1 to show in this marketing spot2.
+	
+	
+	Marketing Content2
+	Content2 to display in the marketing box. Keep it short and sweet.
+	
+	
+
+-------------------------------------------------------------------------------------------------------------------------
+Marketing spot Three.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+	Marketing Icon3: Code
+	Icon to show in this marketing spot3. You can Select icon from here(https://fortawesome.github.io/Font-Awesome/icons/).
+	example: <i class="fa fa-desktop"></i>
+	
+	
+	Marketing title3: Text
+	Title1 to show in this marketing spot3.
+	
+	
+	Marketing Content3
+	Content3 to display in the marketing box. Keep it short and sweet.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+Footer Text.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+	Footnote
+	Whatever you add to this textarea will be displayed in the footer throughout your Moodle site.
+	
+	
+	
+-------------------------------------------------------------------------------------------------------------------------
+Footer Text.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+	Header color
+	This sets the header background color for the theme.
+	
+	
+	Theme color
+	This sets the theme background color for the theme.
+	
+	
+	Link text color
+	This sets the link color for the theme.
+	
+
+	Footer top color
+	This sets the theme background footer top color.
+	
+	Footer bottom
+	This sets the theme background Footer bottom color.
+	
+	
+
+-------------------------------------------------------------------------------------------------------------------------
+Socail Links URL.
+-------------------------------------------------------------------------------------------------------------------------
+	
+	
+Enter the URL of your Socal media links.
+
+	Facebook URL
+	Enter the URL of your Facebook page. (i.e http://www.facebook.com/mycollege)
+	
+	
+	Twitter URL
+	Enter the URL of your Twitter feed. (i.e http://www.twitter.com/mycollege)
+	
+	
+	Google+ URL
+	Enter the URL of your Google+ profile. (i.e http://plus.google.com/107817105228930159735)
+	
+	
+	LinkedIn
+	Enter the URL of your LinkedIn. (i.e http://www.example.com/company/vidya)
+	
+	
+	YouTube URL
+	Enter the URL of your YouTube channel. (i.e http://www.youtube.com/mycollege)
+	
+	
+	
+	
+	
+
+-------------------------------------------------------------------------------------------------------------------------
+Images Links URL.
+-------------------------------------------------------------------------------------------------------------------------
+
+https://www.flickr.com/photos/neccorp/16412471166/
+https://www.flickr.com/photos/neccorp/15815932324/
+https://www.flickr.com/photos/neccorp/16250787068/
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+Not Support
+-------------------------------------------------------------------------------------------------------------------------
+This Theme is Notworing in IE7, IE8, IE6
+Not Working with VMchat moodle plugins.
+	
