@@ -1295,15 +1295,13 @@ h2 {
     width: 100%;
 }
 
-
+/* Titre des cours */
 .course_category_tree.category-browse  .coursebox > .info > .coursename a {
      color:#004071;    
 }
 .course_category_tree.category-browse .coursebox > .info > .coursename a:visited,  .course_category_tree.category-browse .coursebox > .info > .coursename a:hover {
      color:#004071;
 }
-
-
 .coursebox > .info > .coursename a {
     color:white;
     font-family: 'Raleway', sans-serif;
@@ -1314,8 +1312,6 @@ h2 {
     text-align: left;
     text-transform: none;
 }
-
-
 
 
 .owl-carousel .owl-item img.img-responsive.course_image {  
