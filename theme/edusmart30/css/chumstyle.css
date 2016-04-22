@@ -926,6 +926,18 @@ h2 {
         z-index: 10;
     }
 
+
+    /*La couleur de champs de formulaire login dans la page d’accueil */
+    input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus {
+        -moz-box-shadow: 0 0 6px #6dcff6;
+        -webkit-box-shadow: 0 0 6px #6dcff6;
+        border-color: #6dcff6;
+        box-shadow: 0 0 6px #6dcff6;
+        color: #000000;
+        font-weight: bold;
+    }
+
+
     /* end chum formulaire login*/
 
 
