@@ -490,13 +490,18 @@ ul.cd-switcher{margin-right: 20px;}
 }
 #page-login-index .loginbox .loginform .form-input input{border:1px solid #999;}
 
+/* CHUM */
+
 .mform .fitem div.fitemtitle {
-	width: 97%;
-	text-align: left
+	/*width: 97%;*/
+	text-align: right;
 }
+
+
 .mform .fitem .felement {
-	margin-left: 0px;
+	/*margin-left: 0px;*/
 }
+
 #mform2 .collapsible-actions {
 	margin-right: 35px;
 }

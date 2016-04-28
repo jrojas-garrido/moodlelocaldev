@@ -278,6 +278,14 @@ ul.breadcrumb {
     
 }
 
+
+/* block d'aministration data-block="settings" */
+#page .block_settings.block .header {  
+    background-color: #004171;
+}
+
+
+
 #page .block .header h2 {
     color:white;
 }
@@ -1549,3 +1557,21 @@ h2 {
 .page-context-header .page-header-headings h1 {
     text-shadow: 4px 5px 13px #004071;
 }
+
+
+
+/* IE */
+
+.form-item .form-label, .mform .fitem div.fitemtitle {
+    background-color: #F9F9F9;
+}
+
+
+
+/* edicion */
+
+/*.mform .fitem div.fitemtitle {
+    width: 245px;   
+}
+*/
+
