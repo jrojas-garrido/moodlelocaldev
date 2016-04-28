@@ -713,6 +713,23 @@ h2 {
     font-family: raleway;
 }
 
+/* format de titres dans le contenu du cours */
+
+#region-main div[role="main"] .course-content h2, #region-main div[role="main"] .course-content h3 {
+    border-left: 3px solid #6dcff6;
+}
+
+#region-main div[role="main"] .course-content h3 {
+    border-bottom: none;
+    background-color: #f3f3f3;
+}
+
+.course-content ul.topics li.section {    
+    border-top: none;
+}
+
+
+
 
 /* footer */   
 
@@ -1559,6 +1576,27 @@ h2 {
 }
 
 
+/* alveoles d'arriere plain liste d'activities */
+.activityinstance a img.iconlarge.activityicon {
+    background-image: url("../pix/images/alveole_bleu_pale.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50px 55px;
+    padding: 20px;    
+
+}
+
+.activityinstance a span {
+    vertical-align: text-bottom;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+
+.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
+    border-top-color : #004071;
+}
+
 
 /* IE */
 
@@ -1570,8 +1608,8 @@ h2 {
 
 /* edicion */
 
-/*.mform .fitem div.fitemtitle {
-    width: 245px;   
-}
-*/
+
+
+
+
 
