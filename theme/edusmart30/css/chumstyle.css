@@ -638,6 +638,13 @@ for the colored icons in the blocks.*/
   content:"\f091";
 }
 
+/* icon configurable reports */
+.block_configurable_reports .header .title h2:before 
+    content: "\f1fe";
+    height:25px;
+}
+
+
 
 /*  END Special thanks to Shaun Daubney (Theme Aardvark)
 for the colored icons in the blocks.*/
@@ -1587,29 +1594,49 @@ h2 {
 }
 
 .activityinstance a span {
-    vertical-align: text-bottom;
-    margin-bottom: 12px;
     display: inline-block;
+    margin-bottom: 12px;
+    vertical-align: text-bottom;
 }
 
 
+/* petit fleche vers le bas pour les menus d'accion */
 .jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
-    border-top-color : #004071;
+    border-top-color : #6DCFF6;
+}
+
+.jsenabled .usermenu .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
+    border-top-color : white;
 }
 
 
-/* IE */
 
+
+/* couleur arriere plain label de formulaire */
 .form-item .form-label, .mform .fitem div.fitemtitle {
     background-color: #F9F9F9;
 }
 
 
+/* bouton full screen */ 
+#region-main div#fullscreen.fullscreen {
+    background-color: #6DCFF6;
+    right: 10px;
+    top: 10px;
+}
+
+#region-main div#fullscreen.fullscreen:hover {
+    background-color: #72bf44;
+}
+
+/* boutons d' edition block*/
+.breadcrumb-button {
+    margin-top: 10px;
+    position: inherit;
+    right: inherit;
+    top: inherit;
+    z-index: inherit;
+}
+
 
 /* edicion */
-
-
-
-
-
-
