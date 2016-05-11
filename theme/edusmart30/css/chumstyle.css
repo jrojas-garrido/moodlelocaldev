@@ -975,6 +975,8 @@ h2 {
 
     /* chum-alveole */
 
+    /* alveoles par css */
+
     /*.chum-alveole {
         width: 100px;
         height: 55px;
@@ -1048,14 +1050,30 @@ h2 {
        border-top-color : #004071;
     }    */
 
+    /* alveole avec 3 icônes dispositif */
+
+    i.fa.fa-desktop { 
+        font : normal normal normal 25px/1 FontAwesome
+    }
+
+    i.fa.fa-tablet { 
+        font : normal normal normal 24px/1 FontAwesome
+    }
+
+    i.fa.fa-mobile { 
+        font : normal normal normal 22px/1 FontAwesome
+    }
+
+    /* alvéoles comme image */
 
     #b-bottom #info-main #info-main1 .img-section {
-        background-image: url("../pix/images/alveole-verte.png");
+        background-image: url("../pix/images/alveole_bleu_pale.png") !important;
     }
 
     #b-bottom #info-main #info-main2 .img-section {
-        background-image: url("../pix/images/alveole_bleu_pale.png");
+        background-image: url("../pix/images/alveole-verte.png") !important;
     }
+
 
     #b-bottom #info-main #info-main3 .img-section {
         background-image: url("../pix/images/alveole_bleu.png");
@@ -1639,4 +1657,50 @@ h2 {
 }
 
 
+
+
+
+
+
+
 /* edicion */
+
+/* titre slider page d'accueil */
+
+/*.caption_title_line {
+    bottom: 160px;    
+}
+
+
+@media (min-width:460px) and (max-width:720px) { 
+    .caption_title_line {
+        bottom: 110px;        
+    }
+}
+
+@media (min-width:320px) and (max-width:460px) { 
+    .caption_title_line {
+        bottom: 89px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px)  {
+    .caption_title_line {
+        bottom: 60px;        
+    }
+}
+
+@media only screen and (max-width: 979px) and (min-width: 320px) {
+    .caption_title_line {
+         bottom: 70px;     
+    }
+}
+
+@media only screen and (min-width: 720px)  {
+    .caption_title_line {
+         bottom: 160px;     
+    }
+
+}*/
+
+/* end titre slider */
