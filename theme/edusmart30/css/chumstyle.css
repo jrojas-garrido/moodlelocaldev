@@ -1384,6 +1384,10 @@ h2 {
 .course_category_tree.category-browse .coursebox > .info > .coursename a:visited,  .course_category_tree.category-browse .coursebox > .info > .coursename a:hover {
      color:#004071;
 }
+
+
+/* liste de cours Tableau de bord / > Cours */
+
 .coursebox > .info > .coursename a {
     color:white;
     font-family: 'Raleway', sans-serif;
@@ -1393,6 +1397,23 @@ h2 {
     padding: 6px 10px;
     text-align: left;
     text-transform: none;
+}
+
+/* liste de cours collapsed Tableau de bord / > Cours */
+
+.coursebox.collapsed > .info > .coursename a {
+    color : #004071;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding: 6px 10px;
+    text-align: left;
+    text-transform: none;
+}
+
+.coursebox.collapsed > .info > .coursename a:hover {
+    color: #004071;
 }
 
 
@@ -1427,6 +1448,8 @@ h2 {
 
 .coursebox > .content > .coursepic > a > img {
     width: inherit;
+    display: block;
+    margin: auto;
 }
 
 
