@@ -151,8 +151,8 @@ Header Start Hrere
                           <span class="cd-error-message">Message d'erreur </span>
                         </p>
                         <p class="fieldset">
-                            <label class="image-replace cd-password" for="signin-password"><span>Mot de passe</span></label>         
-                                <input type="password" class="password  has-padding has-border  has-padding has-border" required="" name="password" id="signup-password" placeholder="Mot de passe" value="">       
+                            <label class="image-replace cd-password" for="signin-password"><span>Mot de passe windows</span></label>         
+                                <input type="password" class="password  has-padding has-border  has-padding has-border" required="" name="password" id="signup-password" placeholder="Mot de passe windows" value="">       
                                 <!-- <a href="#0" class="hide-password">Montrer</a> -->
                                 <span class="cd-error-message">Message d'erreur </span>
                         </p>
@@ -162,9 +162,10 @@ Header Start Hrere
                         <?php } else { ?>
                                 <button class="chum-login-button" value="Login">S'identifier 2</button>
                         <?php } ?>
-                        <p class="fieldset" style="display:block">
-                          <input type="checkbox" id="remember-me" checked>
-                          <label for="remember-me">Se souvenir du nom de l'utilisateur </label>
+                        <p class="fieldset" style="display:block; color:white"> 
+                        <!--  <input type="checkbox" id="remember-me" checked> -->
+                        <!--  <label for="remember-me">Se souvenir du nom de l'utilisateur </label> -->
+                               <span class="chum-lien-connexion">Problème avec vos accès. <a href="login/index.php" style="color:white">Click ici.</a></span>
                         </p>
                         <!-- <p class="cd-form-bottom-message"><a href="login/forgot_password.php" id="forgotten"><?php echo get_string('passwordforgotten'); ?></a></p> -->
                     </form>

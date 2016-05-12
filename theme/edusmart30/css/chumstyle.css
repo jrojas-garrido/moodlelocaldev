@@ -58,6 +58,11 @@
     background: transparent;
 }
 
+/* image du cours 1 seul cours */
+#page-site-index.OnecourseItem .courses .coursebox .content .coursepic a img {
+    display: block; 
+}
+
 /* body */
 body {
     background: url("../pix/images/bg-molecule-130206.jpg") scroll 51% top transparent;
@@ -969,6 +974,21 @@ h2 {
         font-weight: bold;
     }
 
+    .chum-lien-connexion {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+        color: white;
+    }
+    .chum-lien-connexion  a{
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+        color: white;
+        text-decoration: underline;
+    }
+
+
 
     /* end chum formulaire login*/
 
@@ -1392,6 +1412,23 @@ h2 {
     padding: 0 10px;
 }
 
+/* icônes d'inscription */
+
+.coursebox > .content > .enrolmenticons {
+    display: none;
+}
+
+/* taille de l'image du cours*/
+
+.coursebox > .content > .coursepic > a {
+    display: block;
+    text-align: center;
+}
+
+.coursebox > .content > .coursepic > a > img {
+    width: inherit;
+}
+
 
 /* page login */
 
@@ -1416,6 +1453,27 @@ h2 {
     text-transform: uppercase; 
     width: 100%;      
 }
+
+
+#page-login-index #region-main .loginbox .signuppanel {
+    background-color: white;
+    border-radius: 0px;    
+    font-size: 14px;
+    font-variant: normal;   
+}
+
+
+#page-login-index #region-main .loginbox .signuppanel h2 {
+    
+    color: #004071 !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.3em;
+    font-variant: normal;    
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
 
 #page-login-index #region-main #loginbtn {
     margin-left: 0;
@@ -1704,3 +1762,5 @@ h2 {
 }*/
 
 /* end titre slider */
+
+
