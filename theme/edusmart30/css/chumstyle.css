@@ -38,6 +38,14 @@
     /*max-height: 650px;*/
 }
 
+.flex-caption h2:before {
+    background: transparent; 
+}
+
+#myslidertext2 a {
+    text-shadow: 1px 1px #787D80;
+}
+
 
 /* home page layaout */
 
@@ -1368,6 +1376,11 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* icôn de metode d'inscription 2 fois */
+#frontpage-course-list .coursebox .content .enrolmenticons {
+    border: 2px solid red;
+    display: none;
+}
 
 .coursebox>.info>h3.coursename {
     background-color: #004071;
@@ -1736,8 +1749,6 @@ h2 {
     top: inherit;
     z-index: inherit;
 }
-
-
 
 
 

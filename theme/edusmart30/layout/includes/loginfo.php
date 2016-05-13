@@ -51,8 +51,8 @@ if (!empty($CFG->loginpasswordautocomplete)) {
             		</p>
     
             		<p class="fieldset">
-            		    <label class="image-replace cd-password" for="signin-password">Mot de passe</label>     		
-                        <input type="password" class="password full-width has-padding has-border full-width has-padding has-border" required="" name="password" id="signup-password" placeholder="Mot de passe" value="">   		
+            		    <label class="image-replace cd-password" for="signin-password">Mot de passe Windows</label>     		
+                        <input type="password" class="password full-width has-padding has-border full-width has-padding has-border" required="" name="password" id="signup-password" placeholder="Mot de passe Windows" value="">   		
                         <a href="#0" class="hide-password">Montrer</a>
                         <span class="cd-error-message">Message d'erreur </span>
             		</p>

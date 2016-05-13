@@ -151,7 +151,7 @@ Header Start Hrere
                           <span class="cd-error-message">Message d'erreur </span>
                         </p>
                         <p class="fieldset">
-                            <label class="image-replace cd-password" for="signin-password"><span>Mot de passe windows</span></label>         
+                            <label class="image-replace cd-password" for="signin-password"><span>Mot de passe Windows</span></label>         
                                 <input type="password" class="password  has-padding has-border  has-padding has-border" required="" name="password" id="signup-password" placeholder="Mot de passe windows" value="">       
                                 <!-- <a href="#0" class="hide-password">Montrer</a> -->
                                 <span class="cd-error-message">Message d'erreur </span>
