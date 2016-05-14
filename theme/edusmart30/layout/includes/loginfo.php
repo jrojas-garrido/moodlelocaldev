@@ -60,7 +60,7 @@ if (!empty($CFG->loginpasswordautocomplete)) {
                   	<p class="fieldset">
             			<!-- <input type="checkbox" id="remember-me" checked> -->
             			<!-- <label for="remember-me">Se souvenir du nom de l'utilisateur</label> -->
-                        <span class="chum-lien-connexion-popup">Problème avec vos accès. <a href="/login/index.php">Click ici.</a></span>
+                        <span class="chum-lien-connexion-popup">Problème avec vos accès. <a href="/login/index.php">cliquez ici</a></span>
             		</p>           
                     <div class="clearfix"></div>
           

@@ -81,8 +81,8 @@ $(document).ready(function(){
 		}
 
 		
-		$(window).load(function() {
-				$('.owl-carousel').owlCarousel({
+		 $(window).load(function() {
+				$('#block_wrapper.owl-carousel').owlCarousel({
 			    loop:true,
 			    margin:10,
 			    responsiveClass:true,
@@ -111,6 +111,60 @@ $(document).ready(function(){
 			});
 			
 		 });
+
+		
+
+		 $(window).load(function() {
+				$('.frontpage-course-list-all.owl-carousel').owlCarousel({
+
+				autoWidth:true,
+			    loop:true,
+			    margin:10,
+
+			    responsiveClass:true,
+			    responsive:{
+			        0:{
+			            items:1,
+			            nav:true,
+			            loop:true,
+			            autoplayHoverPause: false
+			        },
+			        600:{
+			            items:2,
+			            nav:true,
+			            loop:true,
+			            autoplayHoverPause: false
+			        },
+			        1000:{
+			            items:3,
+			            nav:true,
+			            loop:true,
+			            autoplay:false,
+			            autoplayHoverPause: false
+			        }
+			
+			    }
+			});
+			
+		 });
+
+		
+    	/*itemElement:'.views-row',
+		        items : 3,
+		        itemsMobile : [768,1],
+		        itemsDesktop : [1500,3],
+		        rewindNav:false,
+		        navigationText: false,*/
+
+		
+		$(window).resize(function() {
+		  
+			/*location.reload();*/
+
+		});
+
+		
+
 
 
 		$('.usermenu .moodle-actionmenu .toggle-display .userbutton').addClass('tooltips');
