@@ -42,17 +42,17 @@ if (!empty($CFG->loginpasswordautocomplete)) {
                     echo html_writer::end_tag('div');
                 } ?>
                 
-                <form action="<?php echo $CFG->httpswwwroot; ?>/login/index.php" method="post" class="cd-form" <?php echo $autocomplete; ?> >
+                <form action="<?php echo $CFG->httpswwwroot; ?>/login/index.php" method="post" class="cd-form" autocomplete="false" >
 
             	    <p class="fieldset">
             			<label class="image-replace cd-username full-width has-padding has-border" for="signup-username"></label>
-            			<input type="text" class="username full-width has-padding has-border username" required="" name="username" id="signup-username" value="" placeholder="Code P">
+            			<input type="text" class="username full-width has-padding has-border username" required="" name="username" id="signup-username" value="" placeholder="Code P" autocomplete="false">
             			<span class="cd-error-message">Message d'erreur </span>
             		</p>
     
             		<p class="fieldset">
             		    <label class="image-replace cd-password" for="signin-password">Mot de passe Windows</label>     		
-                        <input type="password" class="password full-width has-padding has-border full-width has-padding has-border" required="" name="password" id="signup-password" placeholder="Mot de passe Windows" value="">   		
+                        <input type="password" class="password full-width has-padding has-border full-width has-padding has-border" required="" name="password" id="signup-password" placeholder="Mot de passe Windows" value="" autocomplete="false">   		
                         <a href="#0" class="hide-password">Montrer</a>
                         <span class="cd-error-message">Message d'erreur </span>
             		</p>
@@ -60,7 +60,7 @@ if (!empty($CFG->loginpasswordautocomplete)) {
                   	<p class="fieldset">
             			<!-- <input type="checkbox" id="remember-me" checked> -->
             			<!-- <label for="remember-me">Se souvenir du nom de l'utilisateur</label> -->
-                        <span class="chum-lien-connexion-popup">Problème avec vos accès. <a href="/login/index.php">cliquez ici</a></span>
+                        <span class="chum-lien-connexion-popup">Besoin d'aide. <a href="/login/index.php">cliquez ici</a></span>
             		</p>           
                     <div class="clearfix"></div>
           

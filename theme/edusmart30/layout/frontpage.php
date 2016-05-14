@@ -144,15 +144,15 @@ Header Start Hrere
                         } 
                     ?>
                         
-                    <form action="<?php echo $CFG->httpswwwroot; ?>/login/index.php" method="post" class="chum-cd-form" <?php echo $autocomplete; ?> >
+                    <form action="<?php echo $CFG->httpswwwroot; ?>/login/index.php" method="post" class="chum-cd-form" autocomplete="false" >
                         <p class="fieldset">
                           <label class="image-replace cd-username  has-padding has-border" for="signup-username"><span>Code P</span></label>
-                          <input type="text" class="username  has-padding has-border username" required="" name="username" id="signup-username" value="" placeholder="Code P">
+                          <input type="text" class="username  has-padding has-border username" required="" name="username" id="signup-username" value="" placeholder="Code P" autocomplete="false">
                           <span class="cd-error-message">Message d'erreur </span>
                         </p>
                         <p class="fieldset">
                             <label class="image-replace cd-password" for="signin-password"><span>Mot de passe Windows</span></label>         
-                                <input type="password" class="password  has-padding has-border  has-padding has-border" required="" name="password" id="signup-password" placeholder="Mot de passe windows" value="">       
+                                <input type="password" class="password  has-padding has-border  has-padding has-border" required="" name="password" id="signup-password" placeholder="Mot de passe windows" value="" autocomplete="false">       
                                 <!-- <a href="#0" class="hide-password">Montrer</a> -->
                                 <span class="cd-error-message">Message d'erreur </span>
                         </p>
@@ -165,7 +165,7 @@ Header Start Hrere
                         <p class="fieldset" style="display:block; color:white"> 
                         <!--  <input type="checkbox" id="remember-me" checked> -->
                         <!--  <label for="remember-me">Se souvenir du nom de l'utilisateur </label> -->
-                               <span class="chum-lien-connexion">Problème avec vos accès. <a href="login/index.php" style="color:white">Click ici.</a></span>
+                               <span class="chum-lien-connexion">Besoin d'aide, <a href="login/index.php" style="color:white">cliquez ici.</a></span>
                         </p>
                         <!-- <p class="cd-form-bottom-message"><a href="login/forgot_password.php" id="forgotten"><?php echo get_string('passwordforgotten'); ?></a></p> -->
                     </form>

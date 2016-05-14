@@ -28,6 +28,9 @@ jQuery(document).ready(function($){
 	});
 
 	$('#login label[for="username"]').html('Code P');
+	$('#login label[for="password"]').html('Mot de passe Windows');
+
+	
 
 
 	//close modal

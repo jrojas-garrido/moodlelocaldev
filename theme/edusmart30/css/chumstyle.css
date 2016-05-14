@@ -1809,6 +1809,16 @@ h2 {
     }
 }
 
+/* couleur titre page login.php */
+
+@media only screen and (max-width: 979px) and (min-width: 320px) {
+    .visitlink.item, #region-main div[role="main"] h2, .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+         color: #004071 !important; 
+    }
+}
+
+
+
 /* edicion */
 
 /* titre slider page d'accueil */
