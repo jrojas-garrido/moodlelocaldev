@@ -1156,7 +1156,7 @@ h2 {
         background-repeat: no-repeat;
         background-position: 123px 45px;
         min-width: 240px;
-        min-height: 40px;
+        min-height: 55px;
     }
 
     .logo_section h1 span {
@@ -1817,6 +1817,19 @@ h2 {
     }
 }
 
+
+
+.fa.fa-users.block_support:before {
+    color: #6dcff6; 
+    content: "\f0c0";
+    display: block;
+    font-family: FontAwesome;
+    font-size:70px;
+    font-style: normal;
+    margin-bottom: 15px;  
+    margin-top: 29px;
+    text-align: center;
+}
 
 
 /* edicion */
